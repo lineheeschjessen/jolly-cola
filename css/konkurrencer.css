@@ -15,6 +15,60 @@
 }
 
 
+/* --------------- Mobile enheder --------------- */
+@media only screen and (max-width: 414px) {
+
+/* Vis burgeren */
+  #burger {
+    position: absolute;
+    width: 10vw;
+    top: 4vw;
+    left: 6vw;
+    z-index: 5;
+  }
+
+/* Skjul menuen */
+  .menupunkter {
+    display: none;
+  }
+
+  #baggrund {
+    display: none;
+  }
+
+}
+
+
+
+
+
+
+
+
+/* --------------- Stor skærm-version --------------- */
+
+@media only screen and (min-width: 415px) {
+
+#burger {
+  display: none;
+}
+
+#baggrund2 {
+  display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* --------------- Generel Styling --------------- */
 
 body, html {
@@ -28,11 +82,26 @@ body, html {
   left: 0;
   right: 0;
   top: 0;
+  z-index: 0;
 }
 
 #baggrund2 {
-  display: none;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
 }
+
+
+
+
+
+
+
+
+
+
 
 /* --------------- Logo i header --------------- */
 
@@ -146,4 +215,137 @@ a:hover {
 
     ul {
       line-height:280%
+    }
+
+    #m-tekst {
+      color: var(--white);
+      top: 7vw;
+      font-size: 1.8vw;
+      font-family: var(--font);
+      left: 42.7vw;
+    }
+
+    #k-tekst {
+      position: absolute;
+      color: var(--white);
+      top: 12vw;
+      font-size: 1vw;
+      line-height: 2.3;
+      font-family: var(--font);
+      padding-left: 20vw;
+      padding-right: 20vw;
+      text-align: center;
+    }
+
+    #status1 {
+      position: absolute;
+      z-index: 1;
+      width: 20vw;
+      left: 5vw;
+      top: 37vw;
+    }
+
+    #status2 {
+      position: absolute;
+      z-index: 1;
+      width: 20vw;
+      left: 28vw;
+      top: 37vw;
+    }
+
+    #status3 {
+      position: absolute;
+      z-index: 1;
+      width: 20vw;
+      left: 51vw;
+      top: 37vw;
+    }
+
+    #status4 {
+      position: absolute;
+      z-index: 1;
+      width: 20vw;
+      left: 74vw;
+      top: 37vw;
+    }
+
+    #følgere {
+      color: var(--white);
+      top: 30vw;
+      font-size: 1.8vw;
+      font-family: var(--font);
+      left: 34vw;
+    }
+
+    /* --------------- Footer starter her --------------- */
+
+    #slutlogo {
+      position: absolute;
+      left: 45%;
+      width: 10%;
+      top: 115vw;
+    }
+
+    #kontakt {
+      top: 121vw;
+      text-align: left;
+      font-size: 2vw;
+      color: var(--white);
+      right: 85.5vw;
+    }
+
+    #find-os {
+      top: 121vw;
+      text-align: left;
+      font-size: 2vw;
+      color: var(--white);
+      left: 45%;
+    }
+
+    #information {
+      top: 121vw;
+      text-align: left;
+      font-size: 2vw;
+      color: var(--white);
+      right: 6%;
+    }
+
+    #kontaktliste {
+      position: absolute;
+      width: 20vw;
+      list-style: none;
+      font-family: var(--font);
+      top: 126vw;
+      text-align: left;
+      font-size: 1.2vw;
+      color: var(--white);
+      right: 73vw;
+    }
+
+    #findosliste {
+      position: absolute;
+      list-style: none;
+      top: 126vw;
+      text-align: left;
+      font-size: 1.2vw;
+      right: 42vw;
+    }
+
+    #informationsliste {
+      position: absolute;
+      list-style: none;
+      top: 126vw;
+      text-align: left;
+      font-size: 1.2vw;
+      right: 10vw;
+    }
+
+    #facebook {
+      width: 2vw;
+      vertical-align: middle;
+    }
+
+    #instagram {
+      width: 2vw;
+      vertical-align: middle;
     }

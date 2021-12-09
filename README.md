@@ -1,2 +1,2 @@
 # jollycola
-Det her er mit eksamensprojekt om jolly cola 
+Det her er mit eksamensprojekt om jolly cola.
