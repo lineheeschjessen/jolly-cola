@@ -1,0 +1,149 @@
+@import 'reset.css';
+/* Google fonts (NB: load før :root) */
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Cinzel:wght@700&family=Jost:wght@300&family=Montserrat:wght@300&display=swap');
+:root {
+  /* farver */
+  --white: #ffffff;
+  --black: #000000;
+  --blue: #19222a;
+  --yellow: #EAA73B;
+  --red: #5c1e1e;
+
+  /* fonte */
+  --font: 'Montserrat', sans-serif; /* brødtekst */
+  --displayH: 'Montserrat', sans-serif; /* overskrifter */
+}
+
+
+/* --------------- Generel Styling --------------- */
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#baggrund {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+#baggrund2 {
+  display: none;
+}
+
+/* --------------- Logo i header --------------- */
+
+#logo {
+  position: absolute;
+  width: 10vw;
+  left: 45vw;
+  top: 0.8vw;
+  z-index: 2;
+}
+
+/* --------------- Menupunkter --------------- */
+a {
+  text-decoration: none;
+  color: var(--white);
+  font-family: var(--font);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.menuknap1 {
+  color: var(--white);
+  font-size: 1.2vw;
+  top: 3vw;
+  height: 5vw;
+  border: none;
+  background-color: transparent;
+  font-family: var(--font);
+}
+
+    .menu1 {
+      left: 5vw;
+      position: absolute;
+        z-index: 1;
+    }
+
+    .menu1:hover .menuknap1 {color: var(--red);}
+
+.menuknap2 {
+  color: var(--white);
+  font-size: 1.2vw;
+  height: 5vw;
+  width: 9vw;
+  top: 3vw;
+  border: none;
+  background-color: transparent;
+  font-family: var(--font);
+}
+
+    .menu2 {
+      left: 25vw;
+      position: absolute;
+      width: 7vw;
+      display: inline-block;
+        z-index: 1;
+    }
+
+    .menu2:hover .menuknap2 {color: var(--red);}
+
+.menuknap3 {
+  color: var(--white);
+  top: 3vw;
+  height: 5vw;
+  font-size: 1.2vw;
+  border: none;
+  background-color: transparent;
+  font-family: var(--font);
+}
+
+    .menu3 {
+      right: 25vw;
+      position: absolute;
+      display: inline-block;
+        z-index: 1;
+    }
+
+    .menu3:hover .menuknap3 {color: var(--red);}
+
+.menuknap4 {
+  color: var(--white);
+  top: 3vw;
+  height: 5vw;
+  font-size: 1.2vw;
+  border: none;
+  background-color: transparent;
+  font-family: var(--font);
+}
+
+    .menu4 {
+      right: 5vw;
+      position: absolute;
+      display: inline-block;
+        z-index: 1;
+    }
+
+    .menu4:hover .menuknap4 {color: var(--red);}
+
+/* --------------- font-indstillinger --------------- */
+
+    h2 {
+      position: absolute;
+      font-family: var(--font);
+    }
+
+    h3 {
+      position: absolute;
+      font-family: var(--font);
+    }
+
+    ul {
+      line-height:280%
+    }

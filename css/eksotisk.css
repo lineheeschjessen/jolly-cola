@@ -1,0 +1,384 @@
+/* Google fonts (NB: load før :root) */
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Cinzel:wght@700&family=Jost:wght@300&family=Montserrat:wght@300&display=swap');
+:root {
+  /* farver */
+  --white: #ffffff;
+  --black: #000000;
+  --blue: #19222a;
+  --yellow: #EAA73B;
+  --red: #5c1e1e;
+
+  /* fonte */
+  --font: 'Montserrat', sans-serif; /* brødtekst */
+  --displayH: 'Montserrat', sans-serif; /* overskrifter */
+}
+
+body, html {
+  height: 100%;
+}
+
+#baggrund {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+    z-index: 1;
+}
+
+ul {
+  line-height:280%
+}
+
+/* --------------- Parallax effekt --------------- */
+
+.parallax {
+  position: fixed;
+  top: 0vw;
+  left: 0vw;
+  width: 100%;
+
+}
+
+/* --------------- Logo i header --------------- */
+
+.logo {
+  position: absolute;
+  left: 45vw;
+  top: 0.8vw;
+  z-index: 2;
+}
+
+/* --------------- Menupunkter --------------- */
+a {
+  text-decoration: none;
+  color: var(--white);
+  font-family: var(--font);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.menuknap1 {
+  color: var(--white);
+  font-size: 1.2vw;
+  top: 3vw;
+  height: 5vw;
+  border: none;
+  background-color: transparent;
+  font-family: var(--font);
+}
+
+    .menu1 {
+      left: 5%;
+      position: absolute;
+        z-index: 1;
+    }
+
+    .menu1:hover .menuknap1 {color: var(--red);}
+
+.menuknap2 {
+  color: var(--white);
+  font-size: 1.2vw;
+  height: 5vw;
+  width: 9vw;
+  top: 3vw;
+  border: none;
+  background-color: transparent;
+  font-family: var(--font);
+}
+
+    .menu2 {
+      left: 25%;
+      position: absolute;
+      width: 7vw;
+      display: inline-block;
+        z-index: 1;
+    }
+
+    .menu2:hover .menuknap2 {color: var(--red);}
+
+.menuknap3 {
+  color: var(--white);
+  top: 3vw;
+  height: 5vw;
+  font-size: 1.2vw;
+  border: none;
+  background-color: transparent;
+  font-family: var(--font);
+}
+
+    .menu3 {
+      right: 25%;
+      position: absolute;
+      display: inline-block;
+        z-index: 1;
+    }
+
+    .menu3:hover .menuknap3 {color: var(--red);}
+
+.menuknap4 {
+  color: var(--white);
+  top: 3vw;
+  height: 5vw;
+  font-size: 1.2vw;
+  border: none;
+  background-color: transparent;
+  font-family: var(--font);
+}
+
+    .menu4 {
+      right: 5%;
+      position: absolute;
+      display: inline-block;
+        z-index: 1;
+    }
+
+    .menu4:hover .menuknap4 {color: var(--red);}
+
+/* --------------- font-indstillinger --------------- */
+
+h2 {
+  position: absolute;
+  font-family: var(--font);
+}
+
+h3 {
+  position: absolute;
+  font-family: var(--font);
+}
+
+/* --------------- jolly eksotisk afsnit --------------- */
+
+#eksotiskbillede {
+  position: absolute;
+  width: 35%;
+  top: 7vw;
+  left: 6vw;
+  z-index: 1;
+}
+
+#eksotiskoverskrift {
+  text-align: right;
+  top: 11vw;
+  font-size: 2.8vw;
+  color: var(--white);
+  right: 6%;
+    z-index: 1;
+}
+
+#eksotisktekst {
+  text-align: left;
+  line-height: 2.3;
+  top: 18vw;
+  font-size: 1vw;
+  color: var(--white);
+  padding-right: 5%;
+  padding-left: 58%;
+    z-index: 1;
+}
+
+/* --------------- Ingredienser --------------- */
+
+#ingrediens-overskrift {
+  text-align: right;
+  top: 97vw;
+  font-size: 2.8vw;
+  color: var(--white);
+  right: 40%;
+    z-index: 1;
+}
+
+#ingredienser {
+  text-align: center;
+  line-height: 2.3;
+  top: 103vw;
+  font-size: 1vw;
+  color: var(--white);
+  padding-right: 30%;
+  padding-left: 30%;
+    z-index: 1;
+}
+
+#knap1 {
+  position: absolute;
+  width: 12%;
+  left: 71vw;
+  top: 40vw;
+    z-index: 1;
+}
+
+/* --------------- Flere varianter --------------- */
+
+#flerevarianter {
+  text-align: center;
+  line-height: 2.3;
+  top: 110vw;
+  font-size: 2.8vw;
+  color: var(--white);
+  left: 41.5%;
+    z-index: 1;
+}
+
+#jollyananas {
+  position: absolute;
+  width: 25%;
+  top: 118vw;
+  left: 6vw;
+  z-index: 1;
+}
+
+#jollyappelsin {
+  position: absolute;
+  width: 25%;
+  top: 118vw;
+  left: 38vw;
+  z-index: 1;
+}
+
+#jollycola {
+  position: absolute;
+  width: 25%;
+  top: 118vw;
+  right: 6vw;
+  z-index: 1;
+}
+
+#ananastekst {
+  text-align: center;
+  line-height: 2.3;
+  top: 142vw;
+  font-size: 1.5vw;
+  color: var(--white);
+  left: 12.9vw;
+    z-index: 1;
+}
+
+#appelsintekst {
+  text-align: center;
+  line-height: 2.3;
+  top: 142vw;
+  font-size: 1.5vw;
+  color: var(--white);
+  left: 46.3vw;
+    z-index: 1;
+}
+
+#colatekst {
+  text-align: center;
+  line-height: 2.3;
+  top: 142vw;
+  font-size: 1.5vw;
+  color: var(--white);
+  left: 78vw;
+    z-index: 1;
+}
+
+/* --------------- Knapper --------------- */
+
+#knap2 {
+  position: absolute;
+  width: 12%;
+  left: 11.5vw;
+  top: 147.5vw;
+    z-index: 1;
+}
+
+#knap3 {
+  position: absolute;
+  width: 12%;
+  left: 45vw;
+  top: 147.5vw;
+    z-index: 1;
+}
+
+#knap4 {
+  position: absolute;
+  width: 12%;
+  left: 75vw;
+  top: 147.5vw;
+    z-index: 1;
+}
+
+/* --------------- Footer starter her --------------- */
+
+#slutlogo {
+  position: absolute;
+  left: 45%;
+  width: 10%;
+  top: 163vw;
+    z-index: 1;
+}
+
+#kontakt {
+  top: 169vw;
+  text-align: left;
+  font-size: 2vw;
+  color: var(--white);
+  right: 85.5vw;
+  z-index: 1;
+}
+
+#find-os {
+  top: 169vw;
+  text-align: left;
+  font-size: 2vw;
+  color: var(--white);
+  left: 45%;
+    z-index: 1;
+}
+
+#information {
+  top: 169vw;
+  text-align: left;
+  font-size: 2vw;
+  color: var(--white);
+  right: 6%;
+    z-index: 1;
+}
+
+#kontaktliste {
+  position: absolute;
+  width: 20vw;
+  list-style: none;
+  font-family: var(--font);
+  top: 174vw;
+  text-align: left;
+  font-size: 1.2vw;
+  color: var(--white);
+  right: 73vw;
+    z-index: 1;
+}
+
+#findosliste {
+  position: absolute;
+  list-style: none;
+  top: 174vw;
+  text-align: left;
+  font-size: 1.2vw;
+  right: 42vw;
+    z-index: 1;
+}
+
+#informationsliste {
+  position: absolute;
+  list-style: none;
+  top: 174vw;
+  text-align: left;
+  font-size: 1.2vw;
+  right: 10vw;
+    z-index: 1;
+}
+
+#facebook {
+  width: 2vw;
+  vertical-align: middle;
+    z-index: 1;
+}
+
+#instagram {
+  width: 2vw;
+  vertical-align: middle;
+    z-index: 1;
+}

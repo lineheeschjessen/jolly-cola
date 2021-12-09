@@ -1,0 +1,950 @@
+@import 'reset.css';
+/* Google fonts (NB: load før :root) */
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Cinzel:wght@700&family=Jost:wght@300&family=Montserrat:wght@300&display=swap');
+:root {
+  /* farver */
+  --white: #ffffff;
+  --black: #000000;
+  --blue: #19222a;
+  --yellow: #EAA73B;
+  --red: #5c1e1e;
+
+  /* fonte */
+  --font: 'Montserrat', sans-serif; /* brødtekst */
+  --displayH: 'Montserrat', sans-serif; /* overskrifter */
+}
+
+
+
+
+
+
+/* --------------- Mobile enheder --------------- */
+@media only screen and (max-width: 414px) {
+
+/* Vis burgeren */
+  #burger {
+    position: absolute;
+    width: 10vw;
+    top: 4vw;
+    left: 6vw;
+    z-index: 5;
+  }
+
+/* Skjul menuen */
+  .menupunkter {
+    display: none;
+  }
+
+  #baggrund {
+    display: none;
+  }
+
+  /* --------------- Logo i header --------------- */
+
+  #logo {
+    position: absolute;
+    width: 30vw;
+    left: 37vw;
+    top: 0.8vw;
+    z-index: 2;
+  }
+
+  /* --------------- indhold på landingpage --------------- */
+
+  #topbillede {
+    position: absolute;
+    width: 100%;
+    top: 25vw;
+    left: 0;
+  }
+
+  #tidslinjetitel {
+    position: absolute;
+    top: 50vw;
+    text-align: center;
+    font-family: var(--font);
+    font-size: 4.3vw;
+    color: var(--white);
+    left: 7vw;
+  }
+
+  #pil {
+    position: absolute;
+    top: 63vw;
+    width: 8vw;
+    left: 45.5vw;
+  }
+
+  /* --------------- jolly cola afsnit --------------- */
+
+  #jollycola {
+    position: absolute;
+    width: 80%;
+    top: 157vw;
+    left: 11vw;
+  }
+
+  #colaoverskrift {
+    text-align: center;
+    top: 132vw;
+    font-size: 5vw;
+    color: var(--white);
+    left: 10vw;
+  }
+
+  #colaårstal {
+    text-align: center;
+    top: 134vw;
+    font-size: 12vw;
+    color: var(--white);
+    right: 37vw;
+  }
+
+  #colatekst {
+    text-align: left;
+    line-height: 2.3;
+    top: 239vw;
+    font-size: 3.1vw;
+    color: var(--white);
+    padding-right: 10vw;
+    padding-left: 10vw;
+  }
+
+  #knap1 {
+    position: absolute;
+    width: 50%;
+    left: 25vw;
+    top: 298vw;
+  }
+
+  /* --------------- jolly appelsin afsnit --------------- */
+
+  #jollyappelsin {
+    position: absolute;
+    width: 80%;
+    top: 416vw;
+    left: 11vw;
+  }
+
+  #appelsinoverskrift {
+    text-align: center;
+    top: 392vw;
+    font-size: 5vw;
+    color: var(--white);
+    left: 5.5vw;
+  }
+
+  #appelsinårstal {
+    text-align: center;
+    top: 393vw;
+    font-size: 12vw;
+    color: var(--white);
+    right: 37vw;
+  }
+
+  #appelsintekst {
+    text-align: left;
+    line-height: 2.3;
+    top: 497vw;
+    font-size: 3.1vw;
+    color: var(--white);
+    padding-right: 10vw;
+    padding-left: 10vw;
+  }
+
+  #knap2 {
+    position: absolute;
+    width: 50%;
+    left: 25vw;
+    top: 556vw;
+  }
+
+  /* --------------- jolly cola light afsnit --------------- */
+
+  #jollylight {
+    position: absolute;
+    width: 80%;
+    top: 672vw;
+    left: 11vw;
+  }
+
+  #lightoverskrift {
+    text-align: center;
+    top: 647vw;
+    font-size: 5vw;
+    color: var(--white);
+    left: 4vw;
+  }
+
+  #lightårstal {
+    text-align: center;
+    top: 648vw;
+    font-size: 12vw;
+    color: var(--white);
+    right: 37vw;
+  }
+
+  #lighttekst {
+    text-align: left;
+    line-height: 2.3;
+    top: 753vw;
+    font-size: 3.1vw;
+    color: var(--white);
+    padding-right: 10vw;
+    padding-left: 10vw;
+  }
+
+  #knap3 {
+    position: absolute;
+    width: 50%;
+    left: 25vw;
+    top: 811vw;
+  }
+
+  /* --------------- jolly time afsnit --------------- */
+
+  #jollytime {
+    position: absolute;
+    width: 80%;
+    top: 925vw;
+    left: 11vw;
+  }
+
+  #timeoverskrift {
+    text-align: center;
+    top: 900vw;
+    font-size: 5vw;
+    color: var(--white);
+    left: 5vw;
+  }
+
+  #timeårstal {
+    text-align: center;
+    top: 900vw;
+    font-size: 12vw;
+    color: var(--white);
+    right: 37vw;
+  }
+
+  #timetekst {
+    text-align: left;
+    line-height: 2.3;
+    top: 1010vw;
+    font-size: 3.1vw;
+    color: var(--white);
+    padding-right: 10vw;
+    padding-left: 10vw;
+  }
+
+  #knap4 {
+    position: absolute;
+    width: 50%;
+    left: 25vw;
+    top: 1067vw;
+  }
+
+  /* --------------- jolly abrikos, citron, eksotisk og ananas afsnit --------------- */
+
+  #jollynyheder {
+    position: absolute;
+    width: 90%;
+    top: 1183vw;
+    left: 5vw;
+  }
+
+  #nyhederoverskrift1 {
+    text-align: center;
+    top: 1155vw;
+    font-size: 5vw;
+    color: var(--white);
+    left: 23vw;
+  }
+
+  #nyhederoverskrift2 {
+    display: none;
+  }
+
+  #nyhederoverskrift3 {
+    display: none;
+  }
+
+  #nyhederoverskrift4 {
+    display: none;
+  }
+
+  #nyhederårstal {
+    text-align: center;
+    top: 1157vw;
+    font-size: 12vw;
+    color: var(--white);
+    right: 37vw;
+  }
+
+  #nyhedertekstmobil {
+    text-align: left;
+    line-height: 2.3;
+    top: 1230vw;
+    font-size: 3.1vw;
+    color: var(--white);
+    padding-right: 10vw;
+    padding-left: 10vw;
+  }
+
+  #nyhedertekst {
+    display: none;
+  }
+
+  #nyhedertekst2 {
+    display: none;
+  }
+
+  #nyhedertekst3 {
+    display: none;
+  }
+
+  #knap5 {
+    position: absolute;
+    width: 50%;
+    left: 25vw;
+    top: 1320vw;
+  }
+
+  /* --------------- Footer starter her --------------- */
+
+  #slutlogo {
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    top: 1352vw;
+  }
+
+  #kontakt {
+    top: 1380vw;
+    text-align: left;
+    font-size: 7vw;
+    color: var(--white);
+    left: 36vw;
+  }
+
+  #find-os {
+    top: 1468vw;
+    text-align: left;
+    font-size: 7vw;
+    color: var(--white);
+    left: 37vw;
+  }
+
+  #information {
+    top: 1535vw;
+    text-align: left;
+    font-size: 7vw;
+    color: var(--white);
+    left: 27vw;
+  }
+
+  #kontaktliste {
+    position: absolute;
+    width: 70vw;
+    list-style: none;
+    font-family: var(--font);
+    top: 1391vw;
+    text-align: center;
+    font-size: 5vw;
+    color: var(--white);
+    left: 5vw;
+  }
+
+  #findosliste {
+    position: absolute;
+    width: 70vw;
+    list-style: none;
+    font-family: var(--font);
+    top: 1479vw;
+    text-align: center;
+    font-size: 5vw;
+    color: var(--white);
+    left: 3.5vw;
+  }
+
+  #informationsliste {
+    position: absolute;
+    width: 70vw;
+    list-style: none;
+    font-family: var(--font);
+    top: 1547vw;
+    text-align: center;
+    font-size: 5vw;
+    color: var(--white);
+    left: 4vw;
+  }
+
+  #facebook {
+    width: 5vw;
+    vertical-align: middle;
+  }
+
+  #instagram {
+    width: 5vw;
+    vertical-align: middle;
+  }
+
+  /* --------------- Parallax effekt --------------- */
+
+  .parallax {
+    height: 170vw;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax2 {
+    height: 270vw;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+/* --------------- Stor skærm-version --------------- */
+
+@media only screen and (min-width: 415px) {
+
+#burger {
+  display: none;
+}
+
+#baggrund2 {
+  display: none;
+}
+
+/* --------------- Logo i header --------------- */
+
+#logo {
+  position: absolute;
+  width: 10vw;
+  left: 45vw;
+  top: 0.8vw;
+  z-index: 2;
+}
+
+/* --------------- indhold på landingpage --------------- */
+
+#topbillede {
+  position: absolute;
+  width: 100%;
+  top: 10vw;
+  left: 0;
+}
+
+#tidslinjetitel {
+  position: absolute;
+  top: 38vw;
+  font-family: var(--font);
+  font-size: 1.6vw;
+  color: var(--white);
+  left: 34%;
+}
+
+#pil {
+  position: absolute;
+  top: 43vw;
+  width: 3vw;
+  left: 48.5vw;
+}
+
+/* --------------- jolly cola afsnit --------------- */
+
+#jollycola {
+  position: absolute;
+  width: 35%;
+  top: 71vw;
+  left: 6vw;
+}
+
+#colaoverskrift {
+  text-align: right;
+  top: 74vw;
+  font-size: 1.8vw;
+  color: var(--white);
+  right: 9.5%;
+}
+
+#colaårstal {
+  text-align: center;
+  top: 75vw;
+  font-size: 5vw;
+  color: var(--white);
+  right: 18%;
+}
+
+#colatekst {
+  text-align: left;
+  line-height: 2.3;
+  top: 85vw;
+  font-size: 1vw;
+  color: var(--white);
+  padding-right: 5%;
+  padding-left: 58%;
+}
+
+#knap1 {
+  position: absolute;
+  width: 12%;
+  left: 71vw;
+  top: 101vw;
+}
+
+/* --------------- jolly appelsin afsnit --------------- */
+
+#jollyappelsin {
+  position: absolute;
+  width: 35%;
+  top: 135vw;
+  right: 6vw;
+}
+
+#appelsinoverskrift {
+  text-align: right;
+  top: 140vw;
+  font-size: 1.8vw;
+  color: var(--white);
+  left: 7.5%;
+}
+
+#appelsinårstal {
+  text-align: center;
+  top: 141vw;
+  font-size: 5vw;
+  color: var(--white);
+  left: 18%;
+}
+
+#appelsintekst {
+  text-align: left;
+  line-height: 2.3;
+  top: 151vw;
+  font-size: 1vw;
+  color: var(--white);
+  padding-left: 5%;
+  padding-right: 58%;
+}
+
+#knap2 {
+  position: absolute;
+  width: 12%;
+  right: 71vw;
+  top: 166vw;
+}
+
+/* --------------- jolly cola light afsnit --------------- */
+
+#jollylight {
+  position: absolute;
+  width: 35%;
+  top: 198vw;
+  left: 6vw;
+}
+
+#lightoverskrift {
+  text-align: right;
+  top: 204vw;
+  font-size: 1.8vw;
+  color: var(--white);
+  right: 7.5%;
+}
+
+#lightårstal {
+  text-align: center;
+  top: 205vw;
+  font-size: 5vw;
+  color: var(--white);
+  right: 18%;
+}
+
+#lighttekst {
+  text-align: left;
+  line-height: 2.3;
+  top: 215vw;
+  font-size: 1vw;
+  color: var(--white);
+  padding-right: 5%;
+  padding-left: 58%;
+}
+
+#knap3 {
+  position: absolute;
+  width: 12%;
+  left: 71vw;
+  top: 230vw;
+}
+
+/* --------------- jolly time afsnit --------------- */
+
+#jollytime {
+  position: absolute;
+  width: 35%;
+  top: 261vw;
+  right: 6vw;
+}
+
+#timeoverskrift {
+  text-align: right;
+  top: 266vw;
+  font-size: 1.8vw;
+  color: var(--white);
+  left: 7.5%;
+}
+
+#timeårstal {
+  text-align: center;
+  top: 267vw;
+  font-size: 5vw;
+  color: var(--white);
+  left: 18%;
+}
+
+#timetekst {
+  text-align: left;
+  line-height: 2.3;
+  top: 277vw;
+  font-size: 1vw;
+  color: var(--white);
+  padding-left: 5%;
+  padding-right: 58%;
+}
+
+#knap4 {
+  position: absolute;
+  width: 12%;
+  right: 71vw;
+  top: 292vw;
+}
+
+/* --------------- jolly abrikos, citron, eksotisk og ananas afsnit --------------- */
+
+#jollynyheder {
+  position: absolute;
+  width: 90%;
+  top: 330vw;
+  left: 5%
+}
+
+#nyhederoverskrift1 {
+  text-align: right;
+  top: 326vw;
+  font-size: 1.8vw;
+  color: var(--white);
+  left: 5%;
+}
+
+#nyhederoverskrift2 {
+  text-align: right;
+  top: 332vw;
+  font-size: 1.8vw;
+  color: var(--white);
+  left: 26%;
+}
+
+#nyhederoverskrift3 {
+  text-align: right;
+  top: 332vw;
+  font-size: 1.8vw;
+  color: var(--white);
+  right: 26%;
+}
+
+#nyhederoverskrift4 {
+  text-align: right;
+  top: 326vw;
+  font-size: 1.8vw;
+  color: var(--white);
+  right: 5%;
+}
+
+#nyhederårstal {
+  text-align: center;
+  top: 354vw;
+  font-size: 5vw;
+  color: var(--white);
+  left: 44.5%;
+}
+
+#nyhedertekst {
+  text-align: left;
+  line-height: 2.3;
+  top: 375vw;
+  font-size: 1vw;
+  color: var(--white);
+  padding-left: 5%;
+  padding-right: 68%;
+}
+
+#nyhedertekst2 {
+  text-align: left;
+  line-height: 2.3;
+  top: 375vw;
+  font-size: 1vw;
+  color: var(--white);
+  padding-left: 36.5%;
+  padding-right: 36.5%;
+}
+
+#nyhedertekst3 {
+  text-align: left;
+  line-height: 2.3;
+  top: 375vw;
+  font-size: 1vw;
+  color: var(--white);
+  padding-right: 5%;
+  padding-left: 68%;
+}
+
+#nyhedertekstmobil {
+  display: none;
+}
+
+#knap5 {
+  position: absolute;
+  width: 12%;
+  left: 44vw;
+  top: 391vw;
+}
+
+/* --------------- Footer starter her --------------- */
+
+#slutlogo {
+  position: absolute;
+  left: 45%;
+  width: 10%;
+  top: 401vw;
+}
+
+#kontakt {
+  top: 407vw;
+  text-align: left;
+  font-size: 2vw;
+  color: var(--white);
+  right: 85.5vw;
+}
+
+#find-os {
+  top: 407vw;
+  text-align: left;
+  font-size: 2vw;
+  color: var(--white);
+  left: 45%;
+}
+
+#information {
+  top: 407vw;
+  text-align: left;
+  font-size: 2vw;
+  color: var(--white);
+  right: 6%;
+}
+
+#kontaktliste {
+  position: absolute;
+  width: 20vw;
+  list-style: none;
+  font-family: var(--font);
+  top: 412vw;
+  text-align: left;
+  font-size: 1.2vw;
+  color: var(--white);
+  right: 73vw;
+}
+
+#findosliste {
+  position: absolute;
+  list-style: none;
+  top: 412vw;
+  text-align: left;
+  font-size: 1.2vw;
+  right: 42vw;
+}
+
+#informationsliste {
+  position: absolute;
+  list-style: none;
+  top: 412vw;
+  text-align: left;
+  font-size: 1.2vw;
+  right: 10vw;
+}
+
+#facebook {
+  width: 2vw;
+  vertical-align: middle;
+}
+
+#instagram {
+  width: 2vw;
+  vertical-align: middle;
+}
+
+/* --------------- Parallax effekt --------------- */
+
+.parallax {
+  height: 70vw;
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  height: 70vw;
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+}
+
+
+
+
+
+
+
+/* --------------- Generel Styling --------------- */
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#baggrund {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+#baggrund2 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+/* --------------- font-indstillinger --------------- */
+
+h2 {
+  position: absolute;
+  font-family: var(--font);
+}
+
+h3 {
+  position: absolute;
+  font-family: var(--font);
+}
+
+ul {
+  line-height:280%
+}
+
+/* --------------- Menupunkter --------------- */
+a {
+  text-decoration: none;
+  color: var(--white);
+  font-family: var(--font);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.menuknap1 {
+  color: var(--white);
+  font-size: 1.2vw;
+  top: 3vw;
+  height: 5vw;
+  border: none;
+  background-color: transparent;
+  font-family: var(--font);
+}
+
+    .menu1 {
+      left: 5vw;
+      position: absolute;
+        z-index: 1;
+    }
+
+    .menu1:hover .menuknap1 {color: var(--red);}
+
+.menuknap2 {
+  color: var(--white);
+  font-size: 1.2vw;
+  height: 5vw;
+  width: 9vw;
+  top: 3vw;
+  border: none;
+  background-color: transparent;
+  font-family: var(--font);
+}
+
+    .menu2 {
+      left: 25vw;
+      position: absolute;
+      width: 7vw;
+      display: inline-block;
+        z-index: 1;
+    }
+
+    .menu2:hover .menuknap2 {color: var(--red);}
+
+.menuknap3 {
+  color: var(--white);
+  top: 3vw;
+  height: 5vw;
+  font-size: 1.2vw;
+  border: none;
+  background-color: transparent;
+  font-family: var(--font);
+}
+
+    .menu3 {
+      right: 25vw;
+      position: absolute;
+      display: inline-block;
+        z-index: 1;
+    }
+
+    .menu3:hover .menuknap3 {color: var(--red);}
+
+.menuknap4 {
+  color: var(--white);
+  top: 3vw;
+  height: 5vw;
+  font-size: 1.2vw;
+  border: none;
+  background-color: transparent;
+  font-family: var(--font);
+}
+
+    .menu4 {
+      right: 5vw;
+      position: absolute;
+      display: inline-block;
+        z-index: 1;
+    }
+
+    .menu4:hover .menuknap4 {color: var(--red);}

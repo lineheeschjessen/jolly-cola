@@ -1,0 +1,116 @@
+@import 'reset.css';
+/* Google fonts (NB: load før :root) */
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Cinzel:wght@700&family=Jost:wght@300&family=Montserrat:wght@300&display=swap');
+:root {
+  /* farver */
+  --white: #ffffff;
+  --black: #000000;
+  --blue: #19222a;
+  --yellow: #EAA73B;
+  --red: #5c1e1e;
+
+  /* fonte */
+  --font: 'Montserrat', sans-serif; /* brødtekst */
+  --displayH: 'Montserrat', sans-serif; /* overskrifter */
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+  /* Primær baggrund */
+
+.bg {
+  background-image: url("../images/menu-baggrund.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  /* Baggrund når menuen folder ud */
+
+.bg2 {
+  background-image: url("../images/menu-baggrund2.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+  font-family: var(--font);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#luk {
+  padding-left: 7vw;
+  padding-top: 7vw;
+  width: 7vw;
+}
+
+/* Styling af søgbaren */
+
+#søgbar {
+  padding-top: 7vw;
+  text-align: center;
+}
+
+#søg {
+  border-radius: 25px;
+  border: none;
+  padding: 2vw;
+  width: 45vw;
+  padding-left: 4vw;
+}
+
+/* Styling af menupunkterne */
+
+details summary {
+  color: var(--white);
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--white);
+  font-family: var(--font);
+  text-align: center;
+  padding: 6vw;
+  font-size: 6vw;
+  z-index: 2;
+}
+
+summary {
+  list-style-type: none;
+  z-index: 2;
+}
+
+/* Fjerner liste-ikoner */
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.liste {
+  list-style: none;
+}
+
+/* Afstand til top */
+
+#menupunkter {
+  padding-top: 6vw;
+}
+
+/* Styling af undermenupunkterne */
+
+ul {
+    text-align: center;
+    padding: 0;
+    background-color: var(--white);
+    font-size: 5vw;
+    line-height: 2.3;
+}
