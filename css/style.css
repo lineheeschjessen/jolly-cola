@@ -216,7 +216,7 @@
     top: 900vw;
     font-size: 5vw;
     color: var(--white);
-    left: 5vw;
+    left: 10vw;
   }
 
   #timeårstal {
@@ -253,12 +253,16 @@
     left: 5vw;
   }
 
-  #nyhederoverskrift1 {
+  #nyhederoverskrift {
     text-align: center;
     top: 1155vw;
     font-size: 5vw;
     color: var(--white);
-    left: 23vw;
+    left: 16.5vw;
+  }
+
+  #nyhederoverskrift1 {
+    display: none;
   }
 
   #nyhederoverskrift2 {
@@ -646,6 +650,10 @@
   width: 90%;
   top: 330vw;
   left: 5%
+}
+
+#nyhederoverskrift {
+  display: none;
 }
 
 #nyhederoverskrift1 {
