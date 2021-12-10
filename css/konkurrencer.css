@@ -283,11 +283,11 @@ a:hover {
       position: absolute;
       left: 45%;
       width: 10%;
-      top: 115vw;
+      top: 88vw;
     }
 
     #kontakt {
-      top: 121vw;
+      top: 94vw;
       text-align: left;
       font-size: 2vw;
       color: var(--white);
@@ -295,7 +295,7 @@ a:hover {
     }
 
     #find-os {
-      top: 121vw;
+      top: 94vw;
       text-align: left;
       font-size: 2vw;
       color: var(--white);
@@ -303,7 +303,7 @@ a:hover {
     }
 
     #information {
-      top: 121vw;
+      top: 94vw;
       text-align: left;
       font-size: 2vw;
       color: var(--white);
@@ -315,29 +315,29 @@ a:hover {
       width: 20vw;
       list-style: none;
       font-family: var(--font);
-      top: 126vw;
+      top: 99vw;
       text-align: left;
       font-size: 1.2vw;
       color: var(--white);
-      right: 73vw;
+      right: 73.4vw;
     }
 
     #findosliste {
       position: absolute;
       list-style: none;
-      top: 126vw;
+      top: 99vw;
       text-align: left;
       font-size: 1.2vw;
-      right: 42vw;
+      right: 41vw;
     }
 
     #informationsliste {
       position: absolute;
       list-style: none;
-      top: 126vw;
+      top: 99vw;
       text-align: left;
       font-size: 1.2vw;
-      right: 10vw;
+      right: 12vw;
     }
 
     #facebook {

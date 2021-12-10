@@ -421,6 +421,9 @@
 
 
 
+
+
+
 /* --------------- Stor skærm-version --------------- */
 
 @media only screen and (min-width: 415px) {
@@ -768,7 +771,7 @@
   text-align: left;
   font-size: 1.2vw;
   color: var(--white);
-  right: 73vw;
+  right: 73.4vw;
 }
 
 #findosliste {
@@ -777,7 +780,7 @@
   top: 412vw;
   text-align: left;
   font-size: 1.2vw;
-  right: 42vw;
+  right: 41vw;
 }
 
 #informationsliste {
@@ -786,7 +789,7 @@
   top: 412vw;
   text-align: left;
   font-size: 1.2vw;
-  right: 10vw;
+  right: 12vw;
 }
 
 #facebook {
