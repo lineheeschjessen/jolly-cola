@@ -76,6 +76,10 @@
     left: 45.5vw;
   }
 
+  #pil:hover {
+    transform: scale(1.1);
+  }
+
   /* --------------- jolly cola afsnit --------------- */
 
   #jollycola {
@@ -84,6 +88,7 @@
     top: 157vw;
     left: 11vw;
   }
+
 
   #colaoverskrift {
     text-align: center;
@@ -475,6 +480,10 @@
   left: 48.5vw;
 }
 
+#pil:hover {
+  transform: scale(1.1);
+}
+
 /* --------------- jolly cola afsnit --------------- */
 
 #jollycola {
@@ -517,6 +526,9 @@
   top: 101vw;
 }
 
+#knap1:hover {
+  transform: scale(1.1);
+}
 /* --------------- jolly appelsin afsnit --------------- */
 
 #jollyappelsin {
@@ -557,6 +569,10 @@
   width: 12%;
   right: 71vw;
   top: 166vw;
+}
+
+#knap2:hover {
+  transform: scale(1.1);
 }
 
 /* --------------- jolly cola light afsnit --------------- */
@@ -601,6 +617,10 @@
   top: 230vw;
 }
 
+#knap3:hover {
+  transform: scale(1.1);
+}
+
 /* --------------- jolly time afsnit --------------- */
 
 #jollytime {
@@ -641,6 +661,10 @@
   width: 12%;
   right: 71vw;
   top: 292vw;
+}
+
+#knap4:hover {
+  transform: scale(1.1);
 }
 
 /* --------------- jolly abrikos, citron, eksotisk og ananas afsnit --------------- */
@@ -735,6 +759,10 @@
   width: 12%;
   left: 44vw;
   top: 391vw;
+}
+
+#knap5:hover {
+  transform: scale(1.1);
 }
 
 /* --------------- Footer starter her --------------- */

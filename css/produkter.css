@@ -452,12 +452,20 @@
     z-index: 1;
   }
 
+  #jollycola:hover {
+    transform: scale(1.03);
+  }
+
   #jollylight {
     position: absolute;
     width: 25%;
     top: 25vw;
     left: 38vw;
     z-index: 1;
+  }
+
+  #jollylight:hover {
+    transform: scale(1.03);
   }
 
   #jollyappelsin {
@@ -468,12 +476,20 @@
     z-index: 1;
   }
 
+  #jollyappelsin:hover {
+    transform: scale(1.03);
+  }
+
   #jollytime {
     position: absolute;
     width: 25%;
     top: 62vw;
     left: 6vw;
     z-index: 1;
+  }
+
+  #jollytime:hover {
+    transform: scale(1.03);
   }
 
   #colatekst {
@@ -526,12 +542,20 @@
       z-index: 1;
   }
 
+  #knap2:hover {
+    transform: scale(1.1);
+  }
+
   #knap3 {
     position: absolute;
     width: 12%;
     left: 45vw;
     top: 55vw;
       z-index: 1;
+  }
+
+  #knap3:hover {
+    transform: scale(1.1);
   }
 
   #knap4 {
@@ -542,12 +566,20 @@
       z-index: 1;
   }
 
+  #knap4:hover {
+    transform: scale(1.1);
+  }
+
   #knap5 {
     position: absolute;
     width: 12%;
     left: 11.5vw;
     top: 92vw;
       z-index: 1;
+  }
+
+  #knap5:hover {
+    transform: scale(1.1);
   }
 
   #knap6 {
@@ -558,12 +590,20 @@
       z-index: 1;
   }
 
+  #knap6:hover {
+    transform: scale(1.1);
+  }
+
   #knap7 {
     position: absolute;
     width: 12%;
     left: 45vw;
     top: 136vw;
       z-index: 1;
+  }
+
+  #knap7:hover {
+    transform: scale(1.1);
   }
 
   #knap8 {
@@ -574,12 +614,20 @@
       z-index: 1;
   }
 
+  #knap8:hover {
+    transform: scale(1.1);
+  }
+
   #knap9 {
     position: absolute;
     width: 12%;
     left: 11.5vw;
     top: 176vw;
       z-index: 1;
+  }
+
+  #knap9:hover {
+    transform: scale(1.1);
   }
 
   /* --------------- Nyheder --------------- */
@@ -602,12 +650,20 @@
     z-index: 1;
   }
 
+  #jollyabrikos:hover {
+    transform: scale(1.03);
+  }
+
   #jollycitron {
     position: absolute;
     width: 25%;
     top: 106vw;
     left: 38vw;
     z-index: 1;
+  }
+
+  #jollycitron:hover {
+    transform: scale(1.03);
   }
 
   #jollyeksotisk {
@@ -618,12 +674,20 @@
     z-index: 1;
   }
 
+  #jollyeksotisk:hover {
+    transform: scale(1.03);
+  }
+
   #jollyananas {
     position: absolute;
     width: 25%;
     top: 145vw;
     left: 6vw;
     z-index: 1;
+  }
+
+  #jollyananas:hover {
+    transform: scale(1.03);
   }
 
   #abrikostekst {
