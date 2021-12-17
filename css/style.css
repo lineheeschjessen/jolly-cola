@@ -59,6 +59,38 @@
     left: 0;
   }
 
+  #tlcola {
+    display: none;
+  }
+
+  #tlappelsin {
+    display: none;
+  }
+
+  #tllight {
+    display: none;
+  }
+
+  #tltime {
+    display: none;
+  }
+
+  #tlabrikos {
+    display: none;
+  }
+
+  #tlcitron {
+    display: none;
+  }
+
+  #tleksotisk {
+    display: none;
+  }
+
+  #tlananas {
+    display: none;
+  }
+
   #tidslinjetitel {
     position: absolute;
     top: 50vw;
@@ -401,21 +433,12 @@
   /* --------------- Parallax effekt --------------- */
 
   .parallax {
-    height: 170vw;
-    background-attachment: fixed;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .parallax2 {
     height: 270vw;
     background-attachment: fixed;
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
   }
-
 
 }
 
@@ -462,6 +485,94 @@
   width: 100%;
   top: 10vw;
   left: 0;
+}
+
+#tlcola {
+  position: absolute;
+  width: 9.4%;
+  top: 14.5vw;
+  left: 2.9vw;
+}
+
+#tlcola:hover {
+  transform: scale(1.1);
+}
+
+#tlappelsin {
+  position: absolute;
+  width: 9.4%;
+  top: 14.5vw;
+  left: 15.1vw;
+}
+
+#tlappelsin:hover {
+  transform: scale(1.1);
+}
+
+#tllight {
+  position: absolute;
+  width: 9.4%;
+  top: 14.5vw;
+  left: 27vw;
+}
+
+#tllight:hover {
+  transform: scale(1.1);
+}
+
+#tltime {
+  position: absolute;
+  width: 9.4%;
+  top: 14.5vw;
+  left: 39.2vw;
+}
+
+#tltime:hover {
+  transform: scale(1.1);
+}
+
+#tlabrikos {
+  position: absolute;
+  width: 9.4%;
+  top: 14.5vw;
+  left: 51.3vw;
+}
+
+#tlabrikos:hover {
+  transform: scale(1.1);
+}
+
+#tlcitron {
+  position: absolute;
+  width: 9.4%;
+  top: 14.5vw;
+  left: 63.4vw;
+}
+
+#tlcitron:hover {
+  transform: scale(1.1);
+}
+
+#tleksotisk {
+  position: absolute;
+  width: 9.4%;
+  top: 14.5vw;
+  left: 75.7vw;
+}
+
+#tleksotisk:hover {
+  transform: scale(1.1);
+}
+
+#tlananas {
+  position: absolute;
+  width: 9.4%;
+  top: 14.5vw;
+  left: 87.8vw;
+}
+
+#tlananas:hover {
+  transform: scale(1.1);
 }
 
 #tidslinjetitel {
@@ -848,14 +959,6 @@
   background-size: cover;
 }
 
-.parallax2 {
-  height: 70vw;
-  background-attachment: fixed;
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 }
 
 
@@ -869,6 +972,7 @@
 body, html {
   height: 100%;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 #baggrund {
