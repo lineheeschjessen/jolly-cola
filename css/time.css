@@ -209,6 +209,10 @@ h3 {
     z-index: 1;
 }
 
+#knap1:hover {
+  transform: scale(1.1);
+}
+
 /* --------------- Flere varianter --------------- */
 
 #flerevarianter {
@@ -229,6 +233,10 @@ h3 {
   z-index: 1;
 }
 
+#jollyabrikos:hover {
+  transform: scale(1.05);
+}
+
 #jollyeksotisk {
   position: absolute;
   width: 25%;
@@ -237,12 +245,20 @@ h3 {
   z-index: 1;
 }
 
+#jollyeksotisk:hover {
+  transform: scale(1.05);
+}
+
 #jollycitron {
   position: absolute;
   width: 25%;
   top: 118vw;
   right: 6vw;
   z-index: 1;
+}
+
+#jollycitron:hover {
+  transform: scale(1.05);
 }
 
 #abrikostekst {
@@ -285,6 +301,10 @@ h3 {
     z-index: 1;
 }
 
+#knap2:hover {
+  transform: scale(1.1);
+}
+
 #knap3 {
   position: absolute;
   width: 12%;
@@ -293,12 +313,20 @@ h3 {
     z-index: 1;
 }
 
+#knap3:hover {
+  transform: scale(1.1);
+}
+
 #knap4 {
   position: absolute;
   width: 12%;
   left: 75vw;
   top: 147.5vw;
     z-index: 1;
+}
+
+#knap4:hover {
+  transform: scale(1.1);
 }
 
 /* --------------- Footer starter her --------------- */
