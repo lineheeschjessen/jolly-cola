@@ -864,7 +864,8 @@ a:hover {
 }
 
     .menu1 {
-      left: 5%;
+      top: 2vw;
+      left: 5vw;
       position: absolute;
         z-index: 1;
     }
@@ -883,7 +884,8 @@ a:hover {
 }
 
     .menu2 {
-      left: 25%;
+      top: 2vw;
+      left: 25vw;
       position: absolute;
       width: 7vw;
       display: inline-block;
@@ -903,7 +905,8 @@ a:hover {
 }
 
     .menu3 {
-      right: 25%;
+      top: 2vw;
+      right: 25vw;
       position: absolute;
       display: inline-block;
         z-index: 1;
@@ -922,7 +925,8 @@ a:hover {
 }
 
     .menu4 {
-      right: 5%;
+      top: 2vw;
+      right: 5vw;
       position: absolute;
       display: inline-block;
         z-index: 1;
