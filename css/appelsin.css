@@ -13,9 +13,292 @@
   --displayH: 'Montserrat', sans-serif; /* overskrifter */
 }
 
-body, html {
-  height: 100%;
+/* --------------- Mobile enheder --------------- */
+@media only screen and (max-width: 414px) {
+
+  /* Vis burgeren */
+    #burger {
+      position: absolute;
+      width: 10vw;
+      top: 4vw;
+      left: 6vw;
+      z-index: 5;
+    }
+
+  /* Skjul menuen */
+    .menupunkter {
+      display: none;
+    }
+
+    /* --------------- Logo i header --------------- */
+
+    #logo {
+      position: absolute;
+      width: 40vw;
+      left: 37vw;
+      top: 0.8vw;
+      z-index: 2;
+    }
+
+/* --------------- Parallax effekt --------------- */
+
+.parallax {
+  position: absolute;
+  top: 247.5vw;
+  left: 0vw;
+  width: 100%;
+  }
+
+  #baggrund {
+    display: none;
+  }
+
+  #baggrund2 {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      right: 0;
+      top: 0;
+        z-index: 1;
+  }
+
+  /* --------------- jolly cola afsnit --------------- */
+
+  #appelsinbillede {
+    position: absolute;
+    width: 80%;
+    top: 30vw;
+    left: 11vw;
+    z-index: 1;
+  }
+
+  #appelsinoverskrift {
+    text-align: center;
+    top: 112vw;
+    font-size: 5vw;
+    color: var(--white);
+    left: 11vw;
+    z-index: 1;
+  }
+
+  #appelsintekst {
+    text-align: left;
+    line-height: 2.3;
+    top: 129vw;
+    font-size: 3.1vw;
+    color: var(--white);
+    padding-right: 10vw;
+    padding-left: 10vw;
+    z-index: 2;
+  }
+
+  #knap1 {
+    position: absolute;
+    width: 50%;
+    left: 25vw;
+    top: 218vw;
+    z-index: 1;
+  }
+
+  /* --------------- Ingredienser --------------- */
+
+  #ingrediens-overskrift {
+    text-align: right;
+    line-height: 2.3;
+    top: 300vw;
+    font-size: 5vw;
+    color: var(--white);
+    right: 33%;
+      z-index: 1;
+  }
+
+  #ingredienser {
+    text-align: center;
+    line-height: 2.3;
+    top: 313vw;
+    font-size: 3.1vw;
+    color: var(--white);
+    padding-right: 10%;
+    padding-left: 10%;
+      z-index: 1;
+  }
+
+  /* --------------- Flere varianter --------------- */
+
+  #flerevarianter {
+    text-align: center;
+    line-height: 2.3;
+    top: 350vw;
+    font-size: 5vw;
+    color: var(--white);
+    left: 33%;
+      z-index: 1;
+  }
+
+  #jollyabrikos {
+    position: absolute;
+    width: 80%;
+    top: 365vw;
+    left: 11vw;
+    z-index: 1;
+  }
+
+  #jollylight {
+    position: absolute;
+    width: 80%;
+    top: 475vw;
+    left: 11vw;
+    z-index: 1;
+  }
+
+  #jollytime {
+    position: absolute;
+    width: 80%;
+    top: 585vw;
+    left: 11vw;
+    z-index: 1;
+  }
+
+  #abrikostekst {
+    display: none;
+  }
+
+  #lighttekst {
+    display: none;
+  }
+
+  #timetekst {
+    display: none;
+  }
+
+  /* --------------- Knapper --------------- */
+
+  #knap2 {
+    position: absolute;
+    width: 50%;
+    left: 25vw;
+    top: 450vw;
+    z-index: 1;
+  }
+
+  #knap3 {
+    position: absolute;
+    width: 50%;
+    left: 25vw;
+    top: 560vw;
+    z-index: 1;
+  }
+
+  #knap4 {
+    position: absolute;
+    width: 50%;
+    left: 25vw;
+    top: 670vw;
+    z-index: 1;
+  }
+
+  /* --------------- Footer starter her --------------- */
+
+  #slutlogo {
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    top: 725vw;
+    z-index: 1;
+  }
+
+  #kontakt {
+    top: 750vw;
+    text-align: left;
+    font-size: 7vw;
+    color: var(--white);
+    left: 36vw;
+    z-index: 1;
+  }
+
+  #find-os {
+    top: 840vw;
+    text-align: left;
+    font-size: 7vw;
+    color: var(--white);
+    left: 37vw;
+    z-index: 1;
+  }
+
+  #information {
+    top: 900vw;
+    text-align: left;
+    font-size: 7vw;
+    color: var(--white);
+    left: 27vw;
+    z-index: 1;
+  }
+
+  #kontaktliste {
+    position: absolute;
+    width: 70vw;
+    list-style: none;
+    font-family: var(--font);
+    top: 763vw;
+    text-align: center;
+    font-size: 5vw;
+    color: var(--white);
+    left: 5vw;
+    z-index: 1;
+  }
+
+  #findosliste {
+    position: absolute;
+    width: 70vw;
+    list-style: none;
+    font-family: var(--font);
+    top: 855vw;
+    text-align: center;
+    font-size: 5vw;
+    color: var(--white);
+    left: 3.5vw;
+    z-index: 1;
+  }
+
+  #informationsliste {
+    position: absolute;
+    width: 70vw;
+    list-style: none;
+    font-family: var(--font);
+    top: 915vw;
+    text-align: center;
+    font-size: 5vw;
+    color: var(--white);
+    left: 4vw;
+    z-index: 1;
+  }
+
+  #facebook {
+    width: 5vw;
+    vertical-align: middle;
+      z-index: 1;
+  }
+
+  #instagram {
+    width: 5vw;
+    vertical-align: middle;
+      z-index: 1;
+  }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+/* --------------- Stor skærm-version --------------- */
+@media only screen and (min-width: 415px) {
 
 #baggrund {
   position: absolute;
@@ -26,8 +309,12 @@ body, html {
     z-index: 1;
 }
 
-ul {
-  line-height:280%
+#baggrund2 {
+  display: none;
+}
+
+#burger {
+  display: none;
 }
 
 /* --------------- Parallax effekt --------------- */
@@ -42,104 +329,13 @@ ul {
 
 /* --------------- Logo i header --------------- */
 
-.logo {
+#logo {
   position: absolute;
+  width: 10vw;
   left: 45vw;
   top: 0.8vw;
   z-index: 2;
 }
-
-/* --------------- Menupunkter --------------- */
-a {
-  text-decoration: none;
-  color: var(--white);
-  font-family: var(--font);
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-.menuknap1 {
-  color: var(--white);
-  font-size: 1.2vw;
-  top: 3vw;
-  height: 5vw;
-  border: none;
-  background-color: transparent;
-  font-family: var(--font);
-}
-
-    .menu1 {
-      top: 2vw;
-      left: 5vw;
-      position: absolute;
-        z-index: 1;
-    }
-
-    .menu1:hover .menuknap1 {color: var(--red);}
-
-.menuknap2 {
-  color: var(--white);
-  font-size: 1.2vw;
-  height: 5vw;
-  width: 9vw;
-  top: 3vw;
-  border: none;
-  background-color: transparent;
-  font-family: var(--font);
-}
-
-    .menu2 {
-      top: 2vw;
-      left: 25vw;
-      position: absolute;
-      width: 7vw;
-      display: inline-block;
-        z-index: 1;
-    }
-
-    .menu2:hover .menuknap2 {color: var(--red);}
-
-.menuknap3 {
-  color: var(--white);
-  top: 3vw;
-  height: 5vw;
-  font-size: 1.2vw;
-  border: none;
-  background-color: transparent;
-  font-family: var(--font);
-}
-
-    .menu3 {
-      top: 2vw;
-      right: 25vw;
-      position: absolute;
-      display: inline-block;
-        z-index: 1;
-    }
-
-    .menu3:hover .menuknap3 {color: var(--red);}
-
-.menuknap4 {
-  color: var(--white);
-  top: 3vw;
-  height: 5vw;
-  font-size: 1.2vw;
-  border: none;
-  background-color: transparent;
-  font-family: var(--font);
-}
-
-    .menu4 {
-      top: 2vw;
-      right: 5vw;
-      position: absolute;
-      display: inline-block;
-        z-index: 1;
-    }
-
-    .menu4:hover .menuknap4 {color: var(--red);}
 
 /* --------------- font-indstillinger --------------- */
 
@@ -415,3 +611,133 @@ h3 {
   vertical-align: middle;
     z-index: 1;
 }
+
+}
+
+
+
+
+
+
+/* --------------- Generel Styling --------------- */
+
+body, html {
+  height: 100%;
+}
+
+#baggrund {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+    z-index: 1;
+}
+
+/* --------------- font-indstillinger --------------- */
+
+h2 {
+  position: absolute;
+  font-family: var(--font);
+}
+
+h3 {
+  position: absolute;
+  font-family: var(--font);
+}
+
+/* --------------- Menupunkter --------------- */
+a {
+  text-decoration: none;
+  color: var(--white);
+  font-family: var(--font);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  line-height:280%
+}
+
+.menuknap1 {
+  color: var(--white);
+  font-size: 1.2vw;
+  top: 3vw;
+  height: 5vw;
+  border: none;
+  background-color: transparent;
+  font-family: var(--font);
+}
+
+    .menu1 {
+      top: 2vw;
+      left: 5vw;
+      position: absolute;
+        z-index: 1;
+    }
+
+    .menu1:hover .menuknap1 {color: var(--red);}
+
+.menuknap2 {
+  color: var(--white);
+  font-size: 1.2vw;
+  height: 5vw;
+  width: 9vw;
+  top: 3vw;
+  border: none;
+  background-color: transparent;
+  font-family: var(--font);
+}
+
+    .menu2 {
+      top: 2vw;
+      left: 25vw;
+      position: absolute;
+      width: 7vw;
+      display: inline-block;
+        z-index: 1;
+    }
+
+    .menu2:hover .menuknap2 {color: var(--red);}
+
+.menuknap3 {
+  color: var(--white);
+  top: 3vw;
+  height: 5vw;
+  font-size: 1.2vw;
+  border: none;
+  background-color: transparent;
+  font-family: var(--font);
+}
+
+    .menu3 {
+      top: 2vw;
+      right: 25vw;
+      position: absolute;
+      display: inline-block;
+        z-index: 1;
+    }
+
+    .menu3:hover .menuknap3 {color: var(--red);}
+
+.menuknap4 {
+  color: var(--white);
+  top: 3vw;
+  height: 5vw;
+  font-size: 1.2vw;
+  border: none;
+  background-color: transparent;
+  font-family: var(--font);
+}
+
+    .menu4 {
+      top: 2vw;
+      right: 5vw;
+      position: absolute;
+      display: inline-block;
+        z-index: 1;
+    }
+
+    .menu4:hover .menuknap4 {color: var(--red);}
